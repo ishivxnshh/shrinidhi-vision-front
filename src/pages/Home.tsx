@@ -50,6 +50,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 className="hero-glow text-lg px-8 py-4 group interactive-glow"
+                onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
               >
                 Explore Our Research
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -58,6 +59,7 @@ const Home = () => {
                 variant="outline" 
                 size="lg"
                 className="text-lg px-8 py-4 border-accent text-accent hover:bg-accent hover:text-accent-foreground"
+                onClick={() => window.location.href = '/disclaimer-era'}
               >
                 View Disclaimers
               </Button>
@@ -248,6 +250,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 className="hero-glow text-lg px-8 py-4 group"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
                 Explore Our Services
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -256,6 +259,7 @@ const Home = () => {
                 variant="outline" 
                 size="lg"
                 className="text-lg px-8 py-4 border-accent text-accent hover:bg-accent hover:text-accent-foreground"
+                onClick={() => window.location.href = '/standard-disclosure'}
               >
                 Read Our Policies
               </Button>
