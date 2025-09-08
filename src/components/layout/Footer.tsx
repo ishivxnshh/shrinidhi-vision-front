@@ -46,20 +46,20 @@ export const Footer = () => {
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-accent flex-shrink-0" />
                   <a 
-                    href="tel:+919812345678" 
+                    href="tel:+919209177791" 
                     className="text-muted-foreground hover:text-accent transition-colors cursor-pointer"
                   >
-                    +91 98123 45678
+                    +91 92091 77791
                   </a>
                 </div>
                 
                 <div className="flex items-center space-x-3">
                   <Mail className="w-4 h-4 text-accent flex-shrink-0" />
                   <a 
-                    href="mailto:info@shridhicapital.com" 
+                    href="mailto:info@shrinidhicapital.com" 
                     className="text-muted-foreground hover:text-accent transition-colors cursor-pointer"
                   >
-                    info@shridhicapital.com
+                    info@shrinidhicapital.com
                   </a>
                 </div>
               </div>
