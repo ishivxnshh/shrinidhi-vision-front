@@ -67,17 +67,11 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center hero-float">
-              <Building2 className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-gradient-primary">
-                Shrinidhi Capital
-              </span>
-              <span className="text-xs text-muted-foreground">
-                Investment Research Associates
-              </span>
-            </div>
+            <img 
+              src="/lovable-uploads/24bbc9a0-7b0a-4ae3-aba3-bdb890585c73.png" 
+              alt="Shrinidhi Capital Logo" 
+              className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
+            />
           </Link>
 
           {/* Desktop Navigation */}

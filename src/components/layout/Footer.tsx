@@ -24,17 +24,11 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1 space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center hero-float">
-                <Building2 className="w-7 h-7 text-primary-foreground" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-gradient-primary">
-                  Shrinidhi Capital
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  Investment Research Associates
-                </p>
-              </div>
+              <img 
+                src="/lovable-uploads/24bbc9a0-7b0a-4ae3-aba3-bdb890585c73.png" 
+                alt="Shrinidhi Capital Logo" 
+                className="h-16 w-auto object-contain"
+              />
             </div>
             
             <div className="space-y-4">
