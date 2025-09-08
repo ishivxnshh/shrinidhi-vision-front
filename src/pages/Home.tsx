@@ -159,7 +159,7 @@ const Home = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-b from-accent/10 to-background">
+      <section className="py-20 bg-gradient-to-b from-accent/10 to-background" data-section="services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-display font-bold text-gradient-primary mb-4">
@@ -305,7 +305,10 @@ const Home = () => {
               <Button 
                 size="lg" 
                 className="hero-glow text-lg px-8 py-4 group"
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                onClick={() => {
+                  const servicesSection = document.querySelector('[data-section="services"]');
+                  servicesSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 Explore Our Services
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
