@@ -209,7 +209,10 @@ const InvestorGrievance = () => {
               </div>
 
               <div className="text-center pt-6">
-                <Button className="hero-glow">
+                <Button 
+                  className="hero-glow"
+                  onClick={() => window.open('https://scores.sebi.gov.in', '_blank')}
+                >
                   <Mail className="w-4 h-4 mr-2" />
                   File a Complaint
                 </Button>

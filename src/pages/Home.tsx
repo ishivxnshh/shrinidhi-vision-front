@@ -158,6 +158,61 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Services Section */}
+      <section className="py-20 bg-gradient-to-b from-accent/10 to-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-display font-bold text-gradient-primary mb-4">
+              Our Trading Services
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Choose from our specialized trading plans designed to match your investment style and goals.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {[
+              {
+                title: "Swing Trading",
+                description: "Strategic medium-term positions with optimal entry and exit points for maximum profit potential.",
+                link: "https://superprofile.bio/vig/68b97713ce502e0013d89aa9"
+              },
+              {
+                title: "Equity Intraday",
+                description: "Dynamic day trading strategies with real-time analysis and quick profit opportunities.",
+                link: "https://superprofile.bio/vig/68b97866ce502e0013d8c011"
+              },
+              {
+                title: "Index Trading",
+                description: "Diversified index-based trading with reduced risk and consistent market exposure.",
+                link: "https://superprofile.bio/vig/68b9780dce502e0013d8b632"
+              }
+            ].map((service, index) => (
+              <Card key={index} className="premium-card group cursor-pointer hover:scale-105 transition-all duration-300">
+                <CardContent className="p-8 text-center">
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <TrendingUp className="w-8 h-8 text-primary-foreground" />
+                  </div>
+                  <h3 className="text-2xl font-semibold text-gradient-accent mb-4">
+                    {service.title}
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-6">
+                    {service.description}
+                  </p>
+                  <Button 
+                    className="hero-glow w-full group"
+                    onClick={() => window.open(service.link, '_blank')}
+                  >
+                    Learn More
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* What Makes Us Best */}
       <section className="py-20 bg-gradient-to-b from-secondary/10 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
