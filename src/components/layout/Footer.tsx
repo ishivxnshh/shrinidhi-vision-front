@@ -29,6 +29,14 @@ export const Footer = () => {
                 alt="Shrinidhi Capital Logo" 
                 className="h-16 w-auto object-contain"
               />
+              <div>
+                <h3 className="text-xl font-bold text-gradient-primary">
+                  Shrinidhi Capital
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  Research & Analysis
+                </p>
+              </div>
             </div>
             
             <div className="space-y-4">

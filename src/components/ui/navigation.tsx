@@ -72,6 +72,14 @@ export const Navigation = () => {
               alt="Shrinidhi Capital Logo" 
               className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
             />
+            <div className="flex flex-col">
+              <span className="text-xl font-bold text-gradient-primary">
+                Shrinidhi Capital
+              </span>
+              <span className="text-xs text-muted-foreground">
+                Research & Analysis
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
