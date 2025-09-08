@@ -45,13 +45,34 @@ export const Footer = () => {
               <div className="space-y-3 text-sm">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-muted-foreground">+91 98123 45678</span>
+                  <a 
+                    href="tel:+919812345678" 
+                    className="text-muted-foreground hover:text-accent transition-colors cursor-pointer"
+                  >
+                    +91 98123 45678
+                  </a>
                 </div>
                 
                 <div className="flex items-center space-x-3">
                   <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-muted-foreground">info@shridhicapital.com</span>
+                  <a 
+                    href="mailto:info@shridhicapital.com" 
+                    className="text-muted-foreground hover:text-accent transition-colors cursor-pointer"
+                  >
+                    info@shridhicapital.com
+                  </a>
                 </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <h4 className="font-semibold text-accent mb-4">Business Address</h4>
+              <div className="text-sm text-muted-foreground space-y-1">
+                <p className="font-medium">Anand Sharadchandra Pathak</p>
+                <p>Proprietor of Shrinidhi Capital</p>
+                <p>Office No. 24, 1 Seat 4th Floor,</p>
+                <p>City Vista B Building, Fountain Road,</p>
+                <p>Kharadi, Haveli, Pune, 411014</p>
               </div>
             </div>
 
@@ -60,7 +81,7 @@ export const Footer = () => {
                 SEBI Research Analyst
               </p>
               <p className="text-xs text-muted-foreground">
-                Registration No. INH000018400
+                Registration No. INH000020970
               </p>
             </div>
           </div>
