@@ -33,7 +33,7 @@ const Home = () => {
               Welcome To Shrinidhi Capital
             </Badge>
             
-            <h1 className="text-hero font-bold text-gradient-primary max-w-4xl mx-auto leading-tight">
+            <h1 className="text-hero font-bold text-blue-500 max-w-4xl mx-auto leading-tight">
               Where Experience Meets Insights
             </h1>
             
