@@ -72,7 +72,7 @@ const InvestorGrievance = () => {
                       <Mail className="w-5 h-5 text-accent mt-1" />
                       <div>
                         <h5 className="font-semibold">Email Support</h5>
-                        <p className="text-sm text-muted-foreground">grievance@shrinidhicapital.com</p>
+                        <p className="text-sm text-muted-foreground">info@shrinidhicapital.com</p>
                         <p className="text-xs text-muted-foreground">Primary channel for complaints</p>
                       </div>
                     </div>
@@ -81,7 +81,7 @@ const InvestorGrievance = () => {
                       <Phone className="w-5 h-5 text-accent mt-1" />
                       <div>
                         <h5 className="font-semibold">Phone Support</h5>
-                        <p className="text-sm text-muted-foreground">+91-XXXXX-XXXXX</p>
+                        <p className="text-sm text-muted-foreground">+91-90291-77791</p>
                         <p className="text-xs text-muted-foreground">Mon-Fri: 9:00 AM to 6:00 PM</p>
                       </div>
                     </div>

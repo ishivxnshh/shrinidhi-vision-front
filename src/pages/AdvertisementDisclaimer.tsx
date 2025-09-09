@@ -93,7 +93,7 @@ const AdvertisementDisclaimer = () => {
                   <div className="border-l-4 border-primary pl-4">
                     <p className="font-medium text-primary">SEBI Registration</p>
                     <p className="text-muted-foreground">
-                      "Shrinidhi Capital is a SEBI registered Research Analyst (Registration No: INH000000000)"
+                      "Shrinidhi Capital is a SEBI registered Research Analyst (Registration No: INH000020970)"
                     </p>
                   </div>
                   

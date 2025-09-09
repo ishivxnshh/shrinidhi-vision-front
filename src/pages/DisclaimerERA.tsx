@@ -97,11 +97,11 @@ const DisclaimerERA = () => {
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
                     <span className="font-medium text-success">Registration No:</span>
-                    <p className="text-muted-foreground">INH000000000 (Sample)</p>
+                    <p className="text-muted-foreground">INH000020970 (Sample)</p>
                   </div>
                   <div>
                     <span className="font-medium text-success">Valid Till:</span>
-                    <p className="text-muted-foreground">December 31, 2025</p>
+                    <p className="text-muted-foreground">December 31, 2028</p>
                   </div>
                   <div>
                     <span className="font-medium text-success">NISM Certification:</span>
