@@ -73,7 +73,7 @@ export const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img 
-              src="/lovable-uploads/24bbc9a0-7b0a-4ae3-aba3-bdb890585c73.png" 
+              src="/lovable-uploads/logo.png" 
               alt="Shrinidhi Capital Logo" 
               className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
             />
