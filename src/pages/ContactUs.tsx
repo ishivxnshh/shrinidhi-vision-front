@@ -18,11 +18,11 @@ const ContactUs = () => {
     <Layout>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-background">
         <div className="text-center mb-12">
-          <Badge className="bg-primary text-primary-foreground px-6 py-2 mb-6">
+          <Badge className="bg-gradient-primary text-primary-foreground px-6 py-2 mb-6 hero-float">
             <MessageCircle className="w-4 h-4 mr-2" />
             Get In Touch
           </Badge>
-          <h1 className="text-4xl font-bold text-foreground mb-4">
+          <h1 className="text-4xl font-bold text-gradient-primary mb-4">
             Contact Us
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -30,13 +30,52 @@ const ContactUs = () => {
           </p>
         </div>
 
+        {/* Founder Section */}
+        <div className="mb-16">
+          <Card className="premium-card max-w-4xl mx-auto group">
+            <CardContent className="p-8">
+              <div className="flex flex-col md:flex-row items-center gap-8">
+                <div className="flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src="/Founder.png.jpg" 
+                    alt="Anand Pathak - Founder" 
+                    className="w-48 h-48 rounded-lg object-cover shadow-md"
+                  />
+                </div>
+                <div className="flex-1 text-center md:text-left">
+                  <h2 className="text-2xl font-bold text-gradient-primary mb-4">
+                    Meet Our Founder
+                  </h2>
+                  <h3 className="text-xl font-semibold text-gradient-accent mb-4">
+                    Anand Pathak
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    I am Anand Pathak, SEBI registered research analyst having 12 years of experience in banking field and 5 years of experience in stock market activities, technical analysis and equity research.
+                  </p>
+                  <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+                    <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+                      SEBI Registered
+                    </Badge>
+                    <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+                      12 Years Banking
+                    </Badge>
+                    <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
+                      5 Years Market Research
+                    </Badge>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
-            <Card className="bg-card border shadow-sm">
+            <Card className="premium-card group">
               <CardHeader>
-                <CardTitle className="flex items-center text-foreground">
-                  <Building2 className="w-6 h-6 mr-3 text-primary" />
+                <CardTitle className="flex items-center text-gradient-primary">
+                  <Building2 className="w-6 h-6 mr-3 text-primary group-hover:scale-110 transition-transform duration-300" />
                   Office Information
                 </CardTitle>
               </CardHeader>
@@ -95,10 +134,10 @@ const ContactUs = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card border shadow-sm">
+            <Card className="premium-card group">
               <CardHeader>
-                <CardTitle className="flex items-center text-foreground">
-                  <FileText className="w-6 h-6 mr-3 text-primary" />
+                <CardTitle className="flex items-center text-gradient-primary">
+                  <FileText className="w-6 h-6 mr-3 text-primary group-hover:scale-110 transition-transform duration-300" />
                   Regulatory Information
                 </CardTitle>
               </CardHeader>
@@ -123,18 +162,18 @@ const ContactUs = () => {
 
           {/* Quick Actions */}
           <div className="space-y-8">
-            <Card className="bg-card border shadow-sm">
+            <Card className="premium-card group">
               <CardHeader>
-                <CardTitle className="text-foreground">Quick Actions</CardTitle>
+                <CardTitle className="text-gradient-primary">Quick Actions</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-4">
                   <Button 
-                    className="w-full justify-start h-auto p-4"
+                    className="w-full justify-start h-auto p-4 group/button hover:bg-primary/10 transition-all duration-300"
                     variant="outline"
                     onClick={() => window.open('tel:+919209177791')}
                   >
-                    <Phone className="w-5 h-5 mr-3" />
+                    <Phone className="w-5 h-5 mr-3 group-hover/button:scale-110 transition-transform duration-300" />
                     <div className="text-left">
                       <div className="font-semibold">Call Us Now</div>
                       <div className="text-sm text-muted-foreground">Speak with our research team</div>
@@ -142,11 +181,11 @@ const ContactUs = () => {
                   </Button>
 
                   <Button 
-                    className="w-full justify-start h-auto p-4"
+                    className="w-full justify-start h-auto p-4 group/button hover:bg-primary/10 transition-all duration-300"
                     variant="outline"
                     onClick={() => window.open('mailto:info@shrinidhicapital.com')}
                   >
-                    <Mail className="w-5 h-5 mr-3" />
+                    <Mail className="w-5 h-5 mr-3 group-hover/button:scale-110 transition-transform duration-300" />
                     <div className="text-left">
                       <div className="font-semibold">Email Us</div>
                       <div className="text-sm text-muted-foreground">Send us your queries</div>
@@ -154,7 +193,7 @@ const ContactUs = () => {
                   </Button>
 
                   <Button 
-                    className="w-full justify-start h-auto p-4"
+                    className="w-full justify-start h-auto p-4 hero-glow group/button"
                     onClick={() => {
                       const servicesSection = document.querySelector('[data-section="services"]');
                       if (servicesSection) {
@@ -164,7 +203,7 @@ const ContactUs = () => {
                       }
                     }}
                   >
-                    <User className="w-5 h-5 mr-3" />
+                    <User className="w-5 h-5 mr-3 group-hover/button:scale-110 transition-transform duration-300" />
                     <div className="text-left">
                       <div className="font-semibold">View Our Services</div>
                       <div className="text-sm opacity-90">Explore trading plans</div>
@@ -174,9 +213,9 @@ const ContactUs = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-card border shadow-sm">
+            <Card className="premium-card group">
               <CardHeader>
-                <CardTitle className="text-foreground">Frequently Asked Questions</CardTitle>
+                <CardTitle className="text-gradient-primary">Frequently Asked Questions</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-4">
@@ -207,9 +246,9 @@ const ContactUs = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-primary/5 border-primary/20 shadow-sm">
+            <Card className="backdrop-premium group">
               <CardContent className="p-6 text-center">
-                <h3 className="font-semibold text-foreground mb-2">Market Risk Disclaimer</h3>
+                <h3 className="font-semibold text-gradient-accent mb-2">Market Risk Disclaimer</h3>
                 <p className="text-sm text-muted-foreground">
                   Investment in securities market are subject to market risks. 
                   Read all the related documents carefully before investing.
