@@ -25,7 +25,7 @@ export const Footer = () => {
           <div className="lg:col-span-1 space-y-6">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/24bbc9a0-7b0a-4ae3-aba3-bdb890585c73.png" 
+                src="/lovable-uploads/logo.png" 
                 alt="Shrinidhi Capital Logo" 
                 className="h-16 w-auto object-contain"
               />

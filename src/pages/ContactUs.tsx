@@ -194,19 +194,12 @@ const ContactUs = () => {
 
                   <Button 
                     className="w-full justify-start h-auto p-4 hero-glow group/button"
-                    onClick={() => {
-                      const servicesSection = document.querySelector('[data-section="services"]');
-                      if (servicesSection) {
-                        servicesSection.scrollIntoView({ behavior: 'smooth' });
-                      } else {
-                        window.location.href = '/#services';
-                      }
-                    }}
+                    onClick={() => window.open('https://wa.me/919209177791', '_blank')}
                   >
-                    <User className="w-5 h-5 mr-3 group-hover/button:scale-110 transition-transform duration-300" />
+                    <MessageCircle className="w-5 h-5 mr-3 group-hover/button:scale-110 transition-transform duration-300" />
                     <div className="text-left">
-                      <div className="font-semibold">View Our Services</div>
-                      <div className="text-sm opacity-90">Explore trading plans</div>
+                      <div className="font-semibold">WhatsApp Us</div>
+                      <div className="text-sm opacity-90">Chat with our team</div>
                     </div>
                   </Button>
                 </div>
