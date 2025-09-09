@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/shrinidhi-capital
+cd /home/ubuntu/shrinidhi-vision-front
 git pull origin main
 npm install
 npm run build
