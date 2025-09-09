@@ -2,14 +2,9 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Building2, TrendingUp, Shield, FileText, MessageCircle } from "lucide-react";
+import { Menu, Building2, TrendingUp, Shield, FileText } from "lucide-react";
 
 const navigationItems = [
-  {
-    label: "Contact Us",
-    href: "/contact-us",
-    icon: MessageCircle
-  },
   {
     label: "Disclaimer For ERA",
     href: "/disclaimer-era",
