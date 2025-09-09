@@ -170,45 +170,171 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {[
-              {
-                title: "Swing Trading",
-                description: "Strategic medium-term positions with optimal entry and exit points for maximum profit potential.",
-                link: "https://superprofile.bio/vig/68b97713ce502e0013d89aa9"
-              },
-              {
-                title: "Equity Intraday",
-                description: "Dynamic day trading strategies with real-time analysis and quick profit opportunities.",
-                link: "https://superprofile.bio/vig/68b97866ce502e0013d8c011"
-              },
-              {
-                title: "Index Trading",
-                description: "Diversified index-based trading with reduced risk and consistent market exposure.",
-                link: "https://superprofile.bio/vig/68b9780dce502e0013d8b632"
-              }
-            ].map((service, index) => (
-              <Card key={index} className="premium-card group cursor-pointer hover:scale-105 transition-all duration-300">
-                <CardContent className="p-8 text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+          <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Equity Swing Trading */}
+            <Card className="bg-card/95 backdrop-blur-sm border-2 border-accent/20 hover:border-accent/40 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <TrendingUp className="w-8 h-8 text-primary-foreground" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-gradient-accent mb-4">
-                    {service.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed mb-6">
-                    {service.description}
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Equity Swing Trading</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Technically-driven setups with short holding periods (2-15 days)
                   </p>
-                  <Button 
-                    className="hero-glow w-full group"
-                    onClick={() => window.open(service.link, '_blank')}
-                  >
-                    Learn More
-                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
+                </div>
+
+                <div className="space-y-3 mb-8">
+                  {[
+                    "2-3 ideas per week based on breakout & reversal patterns",
+                    "Each setup comes with Entry, SL & target zone",
+                    "Ideal for part-time traders",
+                    "Daily market insights"
+                  ].map((feature, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <CheckCircle2 className="w-5 h-5 text-success mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">1 Month</span>
+                    <span className="text-lg font-bold text-foreground">₹3,000</span>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">3 Months</span>
+                    <span className="text-lg font-bold text-foreground">₹4,500</span>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">6 Months</span>
+                    <span className="text-lg font-bold text-foreground">₹8,000</span>
+                  </div>
+                </div>
+
+                <Button 
+                  className="w-full mt-6 hero-glow"
+                  onClick={() => window.open("https://superprofile.bio/vig/68b97713ce502e0013d89aa9", '_blank')}
+                >
+                  Subscribe Now
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Equity Intraday */}
+            <Card className="bg-card/95 backdrop-blur-sm border-2 border-accent/20 hover:border-accent/40 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Clock className="w-8 h-8 text-primary-foreground" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Equity Intraday</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Dynamic day trading strategies with real-time analysis
+                  </p>
+                </div>
+
+                <div className="space-y-3 mb-8">
+                  {[
+                    "3-5 intraday calls per day",
+                    "Real-time entry and exit signals",
+                    "Quick profit opportunities",
+                    "Live market support during trading hours"
+                  ].map((feature, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <CheckCircle2 className="w-5 h-5 text-success mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Monthly</span>
+                    <span className="text-lg font-bold text-foreground">₹1,000</span>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Quarterly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹3,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹2,500</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Half Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹6,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹5,000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <Button 
+                  className="w-full mt-6 hero-glow"
+                  onClick={() => window.open("https://superprofile.bio/vig/68b97866ce502e0013d8c011", '_blank')}
+                >
+                  Subscribe Now
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Index Trading */}
+            <Card className="bg-card/95 backdrop-blur-sm border-2 border-accent/20 hover:border-accent/40 transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="text-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                    <BarChart3 className="w-8 h-8 text-primary-foreground" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Index Trading</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Diversified index-based trading with reduced risk
+                  </p>
+                </div>
+
+                <div className="space-y-3 mb-8">
+                  {[
+                    "Index futures and options strategies",
+                    "Risk-adjusted returns",
+                    "Market trend analysis",
+                    "Portfolio hedging techniques"
+                  ].map((feature, index) => (
+                    <div key={index} className="flex items-start space-x-3">
+                      <CheckCircle2 className="w-5 h-5 text-success mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Monthly</span>
+                    <span className="text-lg font-bold text-foreground">₹1,500</span>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Quarterly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹4,500</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹3,500</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹18,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹12,000</span>
+                    </div>
+                  </div>
+                </div>
+
+                <Button 
+                  className="w-full mt-6 hero-glow"
+                  onClick={() => window.open("https://superprofile.bio/vig/68b9780dce502e0013d8b632", '_blank')}
+                >
+                  Subscribe Now
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
