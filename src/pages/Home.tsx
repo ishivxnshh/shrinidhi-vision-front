@@ -200,16 +200,29 @@ const Home = () => {
 
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
-                    <span className="text-sm font-medium">1 Month</span>
-                    <span className="text-lg font-bold text-foreground">₹3,000</span>
+                    <span className="text-sm font-medium">Monthly</span>
+                    <span className="text-lg font-bold text-foreground">₹1,000</span>
                   </div>
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
-                    <span className="text-sm font-medium">3 Months</span>
-                    <span className="text-lg font-bold text-foreground">₹4,500</span>
+                    <span className="text-sm font-medium">Quarterly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹3,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹2,500</span>
+                    </div>
                   </div>
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
-                    <span className="text-sm font-medium">6 Months</span>
-                    <span className="text-lg font-bold text-foreground">₹8,000</span>
+                    <span className="text-sm font-medium">Half Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹6,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹5,000</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹12,167</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹9,000</span>
+                    </div>
                   </div>
                 </div>
 
@@ -268,6 +281,13 @@ const Home = () => {
                       <span className="text-lg font-bold text-foreground ml-2">₹5,000</span>
                     </div>
                   </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹12,167</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹9,000</span>
+                    </div>
+                  </div>
                 </div>
 
                 <Button 
@@ -309,20 +329,27 @@ const Home = () => {
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
                     <span className="text-sm font-medium">Monthly</span>
-                    <span className="text-lg font-bold text-foreground">₹1,500</span>
+                    <span className="text-lg font-bold text-foreground">₹1,000</span>
                   </div>
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
                     <span className="text-sm font-medium">Quarterly</span>
                     <div className="text-right">
-                      <span className="text-sm text-muted-foreground line-through">₹4,500</span>
-                      <span className="text-lg font-bold text-foreground ml-2">₹3,500</span>
+                      <span className="text-sm text-muted-foreground line-through">₹3,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹2,500</span>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
+                    <span className="text-sm font-medium">Half Yearly</span>
+                    <div className="text-right">
+                      <span className="text-sm text-muted-foreground line-through">₹6,000</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹5,000</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between p-3 rounded-lg bg-background/50 border border-accent/20">
                     <span className="text-sm font-medium">Yearly</span>
                     <div className="text-right">
-                      <span className="text-sm text-muted-foreground line-through">₹18,000</span>
-                      <span className="text-lg font-bold text-foreground ml-2">₹12,000</span>
+                      <span className="text-sm text-muted-foreground line-through">₹12,167</span>
+                      <span className="text-lg font-bold text-foreground ml-2">₹9,000</span>
                     </div>
                   </div>
                 </div>
