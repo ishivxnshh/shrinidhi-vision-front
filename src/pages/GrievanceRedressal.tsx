@@ -167,7 +167,7 @@ const GrievanceRedressal = () => {
                       <h5 className="font-semibold text-primary">Email Support</h5>
                     </div>
                     <div className="space-y-2 text-sm">
-                      <p><strong>Primary:</strong> grievance@shrinidhicapital.com</p>
+                      <p><strong>Primary:</strong> info@shrinidhicapital.com</p>
                       <p><strong>Escalation:</strong> compliance@shrinidhicapital.com</p>
                       <p><strong>Response Time:</strong> Within 4-6 hours</p>
                     </div>
@@ -179,7 +179,7 @@ const GrievanceRedressal = () => {
                       <h5 className="font-semibold text-accent">Phone Support</h5>
                     </div>
                     <div className="space-y-2 text-sm">
-                      <p><strong>Helpline:</strong> +91-XXXXX-XXXXX</p>
+                      <p><strong>Helpline:</strong> +91-90291-77791</p>
                       <p><strong>Hours:</strong> Mon-Fri: 9:00 AM - 6:00 PM</p>
                       <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
                     </div>
@@ -193,7 +193,7 @@ const GrievanceRedressal = () => {
                       <h5 className="font-semibold text-success">Written Complaint</h5>
                     </div>
                     <div className="space-y-2 text-sm">
-                      <p><strong>Address:</strong> [Complete Postal Address]</p>
+                      <p><strong>Address:</strong> Office No. 24, 1 Seat 4th Floor, City Vista B Building, Fountain Road, Kharadi, Haveli, Pune, 411014</p>
                       <p><strong>Attention:</strong> Grievance Officer</p>
                       <p><strong>Processing:</strong> 1-2 business days</p>
                     </div>
@@ -228,7 +228,7 @@ const GrievanceRedressal = () => {
                     <p className="text-sm text-muted-foreground mb-2">
                       <strong>To:</strong> Compliance Officer & Senior Management<br/>
                       <strong>Timeline:</strong> If not resolved within 15 business days<br/>
-                      <strong>Contact:</strong> escalation@shrinidhicapital.com
+                      <strong>Contact:</strong> info@shrinidhicapital.com
                     </p>
                   </div>
                   

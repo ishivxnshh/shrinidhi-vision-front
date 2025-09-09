@@ -330,11 +330,11 @@ const PrivacyPolicy = () => {
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
                     <span className="font-medium text-primary">Email:</span>
-                    <p className="text-muted-foreground">privacy@shrinidhicapital.com</p>
+                    <p className="text-muted-foreground">info@shrinidhicapital.com</p>
                   </div>
                   <div>
                     <span className="font-medium text-primary">Phone:</span>
-                    <p className="text-muted-foreground">+91-XXXXX-XXXXX</p>
+                    <p className="text-muted-foreground">+91-90291-77791</p>
                   </div>
                   <div>
                     <span className="font-medium text-primary">Response Time:</span>

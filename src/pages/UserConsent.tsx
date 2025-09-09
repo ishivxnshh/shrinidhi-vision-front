@@ -203,11 +203,11 @@ const UserConsent = () => {
                   </div>
                   <div>
                     <span className="font-medium text-primary">Email Request:</span>
-                    <p className="text-muted-foreground">privacy@shrinidhicapital.com</p>
+                    <p className="text-muted-foreground">info@shrinidhicapital.com</p>
                   </div>
                   <div>
                     <span className="font-medium text-primary">Phone Support:</span>
-                    <p className="text-muted-foreground">+91-XXXXX-XXXXX</p>
+                    <p className="text-muted-foreground">+91-90291-77791</p>
                   </div>
                   <div>
                     <span className="font-medium text-primary">Written Request:</span>

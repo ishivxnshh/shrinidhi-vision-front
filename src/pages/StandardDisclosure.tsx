@@ -36,12 +36,9 @@ const StandardDisclosure = () => {
                     <p><span className="font-medium">Proprietor:</span> Anand Sharadchandra Pathak</p>
                     <p><span className="font-medium">Company Name:</span> Shrinidhi Capital</p>
                     <p><span className="font-medium">Business:</span> Investment Research & Advisory</p>
-<<<<<<< Updated upstream
                     <p><span className="font-medium">Office Address:</span> Office No. 24, 1 Seat 4th Floor, City Vista B Building, Fountain Road, Kharadi, Haveli, Pune, 411014</p>
-=======
                     <p><span className="font-medium">Incorporation:</span> 2025</p>
                     <p><span className="font-medium">CIN:</span> U74999MH2025PTC023569</p>
->>>>>>> Stashed changes
                   </div>
                 </div>
                 <div>
@@ -49,13 +46,10 @@ const StandardDisclosure = () => {
                   <div className="space-y-2 text-sm">
                     <p><span className="font-medium">SEBI Reg No:</span> INH000020970</p>
                     <p><span className="font-medium">Category:</span> Research Analyst</p>
-<<<<<<< Updated upstream
                     <p><span className="font-medium">Email:</span> info@shrinidhicapital.com</p>
                     <p><span className="font-medium">Phone:</span> +91 92091 77791</p>
-=======
                     <p><span className="font-medium">Validity:</span> Till December 2028</p>
                     <p><span className="font-medium">NISM Certified:</span> Yes</p>
->>>>>>> Stashed changes
                   </div>
                 </div>
               </div>
