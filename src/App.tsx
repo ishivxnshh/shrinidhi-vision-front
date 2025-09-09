@@ -15,6 +15,7 @@ import UserConsent from "./pages/UserConsent";
 import GrievanceRedressal from "./pages/GrievanceRedressal";
 import DosAndDonts from "./pages/DosAndDonts";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/grievance-redressal" element={<GrievanceRedressal />} />
           <Route path="/dos-donts" element={<DosAndDonts />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
